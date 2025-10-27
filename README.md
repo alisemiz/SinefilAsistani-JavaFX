@@ -12,11 +12,31 @@ Uygulamanın temel fonksiyon akışı:
 4.  **İzleme Listesi (Veritabanı):** Kullanıcı filmleri listeye ekleyebilir, "İzlendi" olarak işaretleyebilir veya "Silme Onayı" ile listeden kaldırabilir.
 
 ## 🎞️ Arayüz Görüntüleri
+<br>
 
-![Ana Ekran](screenshots/01-ana-ekran.png)
-![Film Detay Penceresi](screenshots/02-film-detay.png)
-![Oyuncu Detay Penceresi](screenshots/03-oyuncu-detay.png)
-![İzleme Listesi ve Silme Onayı](screenshots/04-silme-onayi.png)
+<p align="center">
+  <img src="screenshots/01-ana-ekran.png" width="700">
+  <br>
+  <em>1. Ana Ekran (Keşfet)</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/02-film-detay.png" width="700">
+  <br>
+  <em>2. Film Detayları (Puan, Yıl ve Oyuncular)</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/03-oyuncu-detay.png" width="700">
+  <br>
+  <em>3. Oyuncu Detayları (Biyografi ve Filmografi)</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/04-silme-onayi.png" width="700">
+  <br>
+  <em>4. İzleme Listesi (Silme Onayı ile)</em>
+</p>
 
 ## ✨ Temel Özellikler
 
