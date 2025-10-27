@@ -22,7 +22,7 @@ target/
 *.ipr
 
 # ===============================================
-# Diğer IDE/Sistem Dosyaları (IDE'nizin oluşturduğu)
+# Diğer IDE/Sistem Dosyaları 
 # ===============================================
 .kotlin
 .apt_generated
