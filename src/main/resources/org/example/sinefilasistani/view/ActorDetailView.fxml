@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="700.0" prefWidth="800.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sinefilasistani.controller.ActorDetailController">
+    <left>
+        <VBox alignment="TOP_CENTER" prefWidth="300.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <ImageView fx:id="actorImageView" fitHeight="400.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="actorNameLabel" text="Oyuncu Adı" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox prefWidth="500.0" spacing="15.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="10.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Label text="Biyografi" textFill="#cccccc">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="200.0" style="-fx-background: #333; -fx-background-color: #333;" VBox.vgrow="SOMETIMES">
+                    <content>
+                        <Label fx:id="biographyLabel" text="Biyografi bilgisi yükleniyor..." textFill="WHITE" wrapText="true" />
+                    </content>
+                </ScrollPane>
+
+                <Label text="Oynadığı Filmler" textFill="#cccccc">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Label>
+                <ScrollPane fitToWidth="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS">
+                    <content>
+                        <TilePane fx:id="filmographyTilePane" hgap="10.0" style="-fx-background-color: #333;" vgap="10.0" />
+                    </content>
+                </ScrollPane>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

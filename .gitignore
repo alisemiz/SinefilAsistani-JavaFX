@@ -1,0 +1,42 @@
+# ===============================================
+# Projemize Özel Gizli Dosyalar (EN ÖNEMLİ BÖLÜM)
+# ===============================================
+
+# API Anahtarımızı içeren yapılandırma dosyası
+config.properties
+
+# SQLite veritabanı dosyamız
+*.db
+
+# ===============================================
+# Maven Build Çıktıları
+# ===============================================
+target/
+
+# ===============================================
+# IntelliJ IDEA & IDE Dosyaları
+# ===============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===============================================
+# Diğer IDE/Sistem Dosyaları (IDE'nizin oluşturduğu)
+# ===============================================
+.kotlin
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+.vscode/
+.DS_Store
