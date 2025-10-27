@@ -76,7 +76,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 
 ### 2. Depoyu Klonlama
 ```bash
-git clone (https://github.com/alisemiz/SinefilAsistani-JavaFX.git)
+git clone https://github.com/alisemiz/SinefilAsistani-JavaFX.git
 cd SinefilAsistani-JavaFX
 ```
 
